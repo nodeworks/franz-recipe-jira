@@ -1,0 +1,13 @@
+{
+  "id": "jira",
+  "name": "JIRA",
+  "version": "1.0.6",
+  "description": "Atlassian JIRA",
+  "main": "index.js",
+  "author": "Rob Lee <rob@nodeworks.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.atlassian.net",
+    "hasCustomUrl": true
+  }
+}
